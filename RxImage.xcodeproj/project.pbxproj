@@ -9,28 +9,13 @@
 /* Begin PBXBuildFile section */
 		DF68B6C0265E98C100A0EE3F /* RxImage.h in Headers */ = {isa = PBXBuildFile; fileRef = DF68B6BE265E98C100A0EE3F /* RxImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF68B6C7265E98D500A0EE3F /* ProcessAlgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68B6C6265E98D500A0EE3F /* ProcessAlgo.swift */; };
-		DF68B6CF265E990700A0EE3F /* RxImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68B6CE265E990700A0EE3F /* RxImageTests.swift */; };
-		DF68B6D1265E990700A0EE3F /* RxImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF68B6BB265E98C100A0EE3F /* RxImage.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		DF68B6D2265E990700A0EE3F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DF68B6B2265E98C100A0EE3F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DF68B6BA265E98C100A0EE3F;
-			remoteInfo = RxImage;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DF68B6BB265E98C100A0EE3F /* RxImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF68B6BE265E98C100A0EE3F /* RxImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxImage.h; sourceTree = "<group>"; };
 		DF68B6BF265E98C100A0EE3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF68B6C6265E98D500A0EE3F /* ProcessAlgo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessAlgo.swift; sourceTree = "<group>"; };
-		DF68B6CC265E990700A0EE3F /* RxImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF68B6CE265E990700A0EE3F /* RxImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxImageTests.swift; sourceTree = "<group>"; };
-		DF68B6D0265E990700A0EE3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,14 +26,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF68B6C9265E990700A0EE3F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DF68B6D1265E990700A0EE3F /* RxImage.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -56,7 +33,6 @@
 			isa = PBXGroup;
 			children = (
 				DF68B6BD265E98C100A0EE3F /* RxImage */,
-				DF68B6CD265E990700A0EE3F /* RxImageTests */,
 				DF68B6BC265E98C100A0EE3F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				DF68B6BB265E98C100A0EE3F /* RxImage.framework */,
-				DF68B6CC265E990700A0EE3F /* RxImageTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,15 +53,6 @@
 				DF68B6C6265E98D500A0EE3F /* ProcessAlgo.swift */,
 			);
 			path = RxImage;
-			sourceTree = "<group>";
-		};
-		DF68B6CD265E990700A0EE3F /* RxImageTests */ = {
-			isa = PBXGroup;
-			children = (
-				DF68B6CE265E990700A0EE3F /* RxImageTests.swift */,
-				DF68B6D0265E990700A0EE3F /* Info.plist */,
-			);
-			path = RxImageTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,24 +87,6 @@
 			productReference = DF68B6BB265E98C100A0EE3F /* RxImage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DF68B6CB265E990700A0EE3F /* RxImageTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DF68B6D4265E990700A0EE3F /* Build configuration list for PBXNativeTarget "RxImageTests" */;
-			buildPhases = (
-				DF68B6C8265E990700A0EE3F /* Sources */,
-				DF68B6C9265E990700A0EE3F /* Frameworks */,
-				DF68B6CA265E990700A0EE3F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DF68B6D3265E990700A0EE3F /* PBXTargetDependency */,
-			);
-			name = RxImageTests;
-			productName = RxImageTests;
-			productReference = DF68B6CC265E990700A0EE3F /* RxImageTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -151,9 +99,6 @@
 					DF68B6BA265E98C100A0EE3F = {
 						CreatedOnToolsVersion = 12.5;
 						LastSwiftMigration = 1250;
-					};
-					DF68B6CB265E990700A0EE3F = {
-						CreatedOnToolsVersion = 12.5;
 					};
 				};
 			};
@@ -171,20 +116,12 @@
 			projectRoot = "";
 			targets = (
 				DF68B6BA265E98C100A0EE3F /* RxImage */,
-				DF68B6CB265E990700A0EE3F /* RxImageTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DF68B6B9265E98C100A0EE3F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF68B6CA265E990700A0EE3F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -202,23 +139,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF68B6C8265E990700A0EE3F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DF68B6CF265E990700A0EE3F /* RxImageTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DF68B6D3265E990700A0EE3F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DF68B6BA265E98C100A0EE3F /* RxImage */;
-			targetProxy = DF68B6D2265E990700A0EE3F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		DF68B6C1265E98C100A0EE3F /* Debug */ = {
@@ -394,42 +315,6 @@
 			};
 			name = Release;
 		};
-		DF68B6D5265E990700A0EE3F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RCQA85T6C2;
-				INFOPLIST_FILE = RxImageTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hoangatuan.RxImageTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		DF68B6D6265E990700A0EE3F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RCQA85T6C2;
-				INFOPLIST_FILE = RxImageTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hoangatuan.RxImageTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -447,15 +332,6 @@
 			buildConfigurations = (
 				DF68B6C4265E98C100A0EE3F /* Debug */,
 				DF68B6C5265E98C100A0EE3F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DF68B6D4265E990700A0EE3F /* Build configuration list for PBXNativeTarget "RxImageTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DF68B6D5265E990700A0EE3F /* Debug */,
-				DF68B6D6265E990700A0EE3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
