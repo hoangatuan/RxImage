@@ -11,4 +11,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/hoangatuan/RxImage.git", :tag => "#{spec.version}" }
   spec.source_files  = "RxImage"
 
+  # dependency
+  spec.dependency 'Alamofire', '~> 5.2'
 end

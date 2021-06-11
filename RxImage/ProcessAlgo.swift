@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Alamofire
 
 public class ProcessAlgo {
     public static func plusBit(n1: Int, n2: Int) -> Int {
