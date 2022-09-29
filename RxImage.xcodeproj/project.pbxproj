@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		2B616C1CACDD5C188CED8678 /* Pods_RxImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4201C0FF17C128FC9CE0CB21 /* Pods_RxImage.framework */; };
+		4CCF826D28E59C89001525A3 /* ProcessImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF826C28E59C89001525A3 /* ProcessImage.swift */; };
+		4CCF826F28E59CCE001525A3 /* ProcessPixel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF826E28E59CCE001525A3 /* ProcessPixel.swift */; };
 		DF68B6C0265E98C100A0EE3F /* RxImage.h in Headers */ = {isa = PBXBuildFile; fileRef = DF68B6BE265E98C100A0EE3F /* RxImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF68B6C7265E98D500A0EE3F /* ProcessAlgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68B6C6265E98D500A0EE3F /* ProcessAlgo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4201C0FF17C128FC9CE0CB21 /* Pods_RxImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCF826C28E59C89001525A3 /* ProcessImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessImage.swift; sourceTree = "<group>"; };
+		4CCF826E28E59CCE001525A3 /* ProcessPixel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessPixel.swift; sourceTree = "<group>"; };
 		DF68B6BB265E98C100A0EE3F /* RxImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF68B6BE265E98C100A0EE3F /* RxImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxImage.h; sourceTree = "<group>"; };
 		DF68B6BF265E98C100A0EE3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,7 +52,6 @@
 				EFE4D59A5FCDC26273470DFC /* Pods-RxImage.debug.xcconfig */,
 				F197AB6D5536725CD6BF9F6D /* Pods-RxImage.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -76,6 +79,8 @@
 				DF68B6BE265E98C100A0EE3F /* RxImage.h */,
 				DF68B6BF265E98C100A0EE3F /* Info.plist */,
 				DF68B6C6265E98D500A0EE3F /* ProcessAlgo.swift */,
+				4CCF826C28E59C89001525A3 /* ProcessImage.swift */,
+				4CCF826E28E59CCE001525A3 /* ProcessPixel.swift */,
 			);
 			path = RxImage;
 			sourceTree = "<group>";
@@ -187,6 +192,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF68B6C7265E98D500A0EE3F /* ProcessAlgo.swift in Sources */,
+				4CCF826D28E59C89001525A3 /* ProcessImage.swift in Sources */,
+				4CCF826F28E59CCE001525A3 /* ProcessPixel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
