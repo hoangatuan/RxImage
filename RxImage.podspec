@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "RxImage"
-  spec.version      = "1.0.0"
+  spec.version      = "2.0.0"
   spec.summary      = "This is such a RxImage framework."
   spec.description  = "This is some super rx framework"
   spec.homepage     = "https://github.com/hoangatuan/RxImage"
@@ -9,7 +9,6 @@ Pod::Spec.new do |spec|
   spec.author       = { "Hoang Anh Tuan" => "tuan.ha@teko.vn" }
   spec.platform     = :ios, "11.0"
   spec.source       = { :git => "https://github.com/hoangatuan/RxImage.git", :tag => "#{spec.version}" }
-  spec.source_files  = "RxImage"
 
   # dependency
   spec.dependency 'Alamofire', '~> 5.2'
